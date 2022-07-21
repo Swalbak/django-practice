@@ -1,0 +1,15 @@
+<h1>Member</h1>
+
+<table border="1">
+{% for x in mymembers %}
+<tr>
+<td>{{ x.id }}</td>
+<td>{{ x.firstname }}</td>
+<td>{{ x.lastname }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<p>
+    <a href="add/">Add member</a>
+</p>
